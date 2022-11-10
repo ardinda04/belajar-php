@@ -19,7 +19,7 @@ CREATE TABLE mahasiswa (
 );
 
 -- insert jurusan
-insert into jurusan(kode, nama) values ("PTIF", "Ilmu Politik");
+insert into jurusan(kode, nama) values ("Ilpol", "Ilmu Politik");
 
 -- insert mahasiswa
 insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahir, tanggal_lahir, alamat) value (1, "20220001", "Ardinda Sri Amrihi", "perempuan", "Bogor", "2002-04-07", "Jl. Abesin No. 65");
